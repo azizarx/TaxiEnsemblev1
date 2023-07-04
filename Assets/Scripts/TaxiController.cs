@@ -2,9 +2,14 @@ using UnityEngine;
 
 public class TaxiController : MonoBehaviour
 {
+    public Animator animator;
     public Transform[] path; // The path the car will follow
     public float speed = 10f; // The speed of the car
-
+    
+    private void start()
+    {
+        animator = GetComponent<Animator>();
+    }
     private void Update()
     {
         MoveForward();
@@ -24,8 +29,10 @@ public class TaxiController : MonoBehaviour
         {
             if (transform.position.x == path[2].position.x)
             {
+                animator.SetTrigger("ChangePathLeftTrigger");
                 Vector3 temp = new Vector3(path[1].position.x, transform.position.y, transform.position.z);
                 transform.position = temp;
+                
             }
             else if (transform.position.x == path[1].position.x)
             {
