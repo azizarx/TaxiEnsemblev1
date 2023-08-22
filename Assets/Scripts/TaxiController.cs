@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TaxiController : MonoBehaviour
 {
+    public Vector3 road;
     public HoldButton HoldButton;
     public Animator animator;
     public Transform[] path; // The path the car will follow
@@ -15,6 +16,7 @@ public class TaxiController : MonoBehaviour
     Vector3 forwardDirection;
     private void start()
     {
+        road = new Vector3(0, 0, 0);
         animator = GetComponent<Animator>();
         //forwardDirection = transform.forward; // Get the forward direction of the car
     }
@@ -24,6 +26,7 @@ public class TaxiController : MonoBehaviour
         Accelerate();
         movement();
         //ChangePath();
+     
     }
     void Accelerate()
     {
