@@ -8,13 +8,15 @@ public class StopZoneScript : MonoBehaviour
     bool inZone;
     public GameObject taxi;
     float speed;
-    public int numberOfPassangers = 0;
+    public GameManager gameManager;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         //Debug.Log("start");
         taxi = GameObject.Find("Taxi");
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
        
     }
 
@@ -27,7 +29,7 @@ public class StopZoneScript : MonoBehaviour
             if (speed<0.1f)
             {
                 Debug.Log("client in");
-                numberOfPassangers++;
+                gameManager.numberOfPassangers++;
                 Destroy(this.gameObject);
             }
         }

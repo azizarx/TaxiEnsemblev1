@@ -9,9 +9,11 @@ public class GameManager : MonoBehaviour
     public GameObject stopZone;
     public GameObject stopZones;
 
+
     public float StressGauge;
     public float StressGaugeFillingSpeed = 0.05f;
-    public int NumberOfPassangers;
+    public int numberOfPassangers = 0;
+    //public int NumberOfPassangers;
     public int NumberOfNotPaidPassangers;
     public GameObject SmokeButton;
     public GameObject GetPaidButton;
