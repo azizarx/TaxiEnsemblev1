@@ -11,6 +11,10 @@ public class EndlessRoadGenerator : MonoBehaviour
     private List<GameObject> roadSegments = new List<GameObject>();
     private float spawnZ = 50f;
 
+
+
+
+
     private void Start()
     {
         // Spawn initial road segments

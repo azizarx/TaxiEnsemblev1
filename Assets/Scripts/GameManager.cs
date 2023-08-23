@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -11,6 +12,10 @@ public class GameManager : MonoBehaviour
     public int NumberOfNotPaidPassangers;
     public GameObject SmokeButton;
     public GameObject GetPaidButton;
+    private float money;
+    public float Money { get { return money; } set { money = money + MoneyPerPassanger; } }
+    public float MoneyPerPassanger;
+    
 
     // Update is called once per frame
     void Update()
