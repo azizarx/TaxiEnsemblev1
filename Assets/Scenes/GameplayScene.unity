@@ -295,21 +295,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b322404f1f9f8a6408583c17f9431652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  taxi: {fileID: 919132148770974868}
-  stopZone: {fileID: 5813748119986278238, guid: 0958337dafe088045a2df68d125bb86c, type: 3}
-  stopZones: {fileID: 1054751376}
   StressGauge: 0
   StressGaugeFillingSpeed: 0.05
   NumberOfPassangers: 0
   NumberOfNotPaidPassangers: 0
   SmokeButton: {fileID: 1535972345}
   GetPaidButton: {fileID: 1629123133}
-  mintime: 2
-  maxtime: 10
-  minDistance: 50
-  maxDistance: 200
-  time: 0
-  side: 0
+  MoneyPerPassanger: 0
 --- !u!1 &281785025
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,19 +503,37 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366719019}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9638b20e55677df4283b5973a2528a0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  positions:
+  - {fileID: 1821759239}
+  - {fileID: 1703223184}
+  - {fileID: 502327727}
   carPrefabs:
+  - {fileID: 160038, guid: f7cb15c5a7c4bdd498370bd90d1d77bd, type: 3}
+  - {fileID: 160038, guid: 4d4a5328e032911409d8d973eee79df4, type: 3}
+  - {fileID: 160038, guid: 6346f9198ebfb674baa1a61f29dc6060, type: 3}
+  - {fileID: 160038, guid: 8e6432cafa5803946a9c3011999db1f7, type: 3}
+  - {fileID: 160038, guid: 812e3f763be51a143bb1d937f48c31f2, type: 3}
   - {fileID: 160038, guid: 1f4a686b41be99449a540690ab7a6785, type: 3}
+  - {fileID: 129146, guid: 9f650378e491fae43bc3f73307b646d7, type: 3}
+  - {fileID: 129146, guid: c0b5a1ab38a43044a91864eb9b9fbede, type: 3}
+  - {fileID: 129146, guid: 8f0fb4627eb4aed4f9ac1c0ec62fb2ff, type: 3}
+  - {fileID: 129146, guid: 7179d797d92b9594482ec3e813202c51, type: 3}
+  - {fileID: 129146, guid: 0ef070b9729d6c640b16bfa755c95ec4, type: 3}
+  - {fileID: 129146, guid: 610632f6f09812d4aa5ce111a109eb86, type: 3}
+  - {fileID: 193646, guid: c69b567067453614686658c6390e4d95, type: 3}
+  - {fileID: 193646, guid: 798591b2838b0844c90eeed933a85d3d, type: 3}
+  - {fileID: 193646, guid: 6af8ef207cc6d8746a0713b3c5350d7b, type: 3}
+  - {fileID: 193646, guid: 19c00265a4f7b43489bdceefa77c2092, type: 3}
+  - {fileID: 193646, guid: 89aba3f23076d03448c61b5cebf2ac8e, type: 3}
+  - {fileID: 193646, guid: cd5a615f62153e041b89bd8f466af5ab, type: 3}
   playerCar: {fileID: 543450653042865710}
-  spawnDistance: {fileID: 366719020}
-  spawnDelay: 1
-  yPositionOffset: 1
+  spawnDelay: 5
   spawnRotation: {x: 0, y: -90, z: 0}
-  carSpeed: 15
 --- !u!1 &502327726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,7 +1290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   taxi: {fileID: 0}
-  numberOfPassangers: 0
+  gameManager: {fileID: 0}
 --- !u!65 &1360564710
 BoxCollider:
   m_ObjectHideFlags: 0

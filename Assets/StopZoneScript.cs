@@ -29,7 +29,7 @@ public class StopZoneScript : MonoBehaviour
             if (speed<0.1f)
             {
                 Debug.Log("client in");
-                gameManager.numberOfPassangers++;
+                gameManager.NumberOfPassangers++;
                 Destroy(this.gameObject);
             }
         }

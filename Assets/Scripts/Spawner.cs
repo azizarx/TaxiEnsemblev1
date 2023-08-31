@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
+    public Transform[] positions;
     /* public Object[] prefabs;
      public float spawnInterval = 1f;
      public float speed = 10f;
@@ -33,11 +34,11 @@ public class Spawner : MonoBehaviour
     public GameObject[] carPrefabs;  // Array of car prefabs to spawn
     public Transform playerCar;  // Reference to the player car
 
-    public Transform spawnDistance;  // Distance in front of the player car to spawn the new cars
-    public float spawnDelay = 1f;  // Delay between each car spawn
-    public float yPositionOffset = 1f;  // Y position offset for each spawned car
+    //public Transform spawnDistance;  // Distance in front of the player car to spawn the new cars
+    public float spawnDelay = 1f;  // Delay between each car spawn PS: i would rather if it was by distance
+    //public float yPositionOffset = 1f;  // Y position offset for each spawned car
     public Vector3 spawnRotation = Vector3.zero;  // Rotation of each spawned car
-    public float carSpeed = 10f;  // Speed at which the cars move forward
+    //public float carSpeed = 10f;  // Speed at which the cars move forward
 
     private void Start()
     {
@@ -50,13 +51,13 @@ public class Spawner : MonoBehaviour
 
         while (true)
         {
-            Vector3 spawnPosition = playerCar.position + playerCar.forward * spawnDistance.position.z;
-            spawnPosition.y += yPositionOffset;
+            Vector3 spawnPosition = new Vector3(positions[Random.Range(0, positions.Length)].position.x, 1.5f, playerCar.transform.position.z + 50f);// + playerCar.forward * spawnDistance.position.z;
+            //spawnPosition.y += yPositionOffset;
 
-            foreach (GameObject carPrefab in carPrefabs)
-            {
-                GameObject newCar = Instantiate(carPrefab, spawnPosition, Quaternion.Euler(spawnRotation));
-
+            //foreach (GameObject carPrefab in carPrefabs)
+            //{
+                GameObject newCar = Instantiate(carPrefabs[Random.Range(0, carPrefabs.Length)], spawnPosition, Quaternion.Euler(spawnRotation));
+                /*
                 // Get the Rigidbody component from the spawned car
                 Rigidbody carRigidbody = newCar.GetComponent<Rigidbody>();
 
@@ -65,9 +66,9 @@ public class Spawner : MonoBehaviour
 
                 // Apply forward force to move the car
                 carRigidbody.AddForce(0,0,carSpeed, ForceMode.VelocityChange);
-
+                */
                 yield return new WaitForSeconds(spawnDelay);
-            }
+            //}
         }
     }
 }

@@ -179,9 +179,11 @@ GameObject:
   - component: {fileID: 434314}
   - component: {fileID: 3348814}
   - component: {fileID: 2305816}
+  - component: {fileID: -2465786100139532153}
+  - component: {fileID: 1869978597433458253}
   m_Layer: 0
   m_Name: Car_4_Yellow
-  m_TagString: Untagged
+  m_TagString: NormalCar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -257,6 +259,34 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-2465786100139532153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8831025cb6ced409c6d2f6f8c41f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTaxi: {fileID: 0}
+  carSpeed: 10
+  slowingRatio: 0.8
+--- !u!65 &1869978597433458253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.047246363, y: 0.02008486, z: 0.022067524}
+  m_Center: {x: -0.000344716, y: 0.0001621684, z: 4.656613e-10}
 --- !u!1 &168118
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,8 +14,9 @@ public class TaxiController : MonoBehaviour
     public float Acceleration = 1f;
     public float Deceleration = 1f;
     Vector3 forwardDirection;
-    private void start()
+    private void Start()
     {
+        Time.timeScale = 1;
         road = new Vector3(0, 0, 0);
         animator = GetComponent<Animator>();
         //forwardDirection = transform.forward; // Get the forward direction of the car
@@ -87,7 +88,13 @@ public class TaxiController : MonoBehaviour
         }
     }
 
-
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("NormalCar"))
+        {
+            Time.timeScale = 0;
+        }
+    }
 
     //public float MaxSpeed;
     public int curPos = 0;
