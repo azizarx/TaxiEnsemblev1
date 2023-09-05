@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     private float money;
     public float Money { get { return money; } set { money = money + MoneyPerPassanger; } }
     public float MoneyPerPassanger;
+
     #region client zone spawning
     public GameObject taxi;
     public GameObject stopZone;

@@ -88,13 +88,16 @@ public class TaxiController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.collider.CompareTag("NormalCar"))
+        if(other.CompareTag("NormalCar"))
         {
-            Time.timeScale = 0;
+            Debug.Log("speed = 1");
+            Speed = 0;
+
         }
     }
+
 
     //public float MaxSpeed;
     public int curPos = 0;
