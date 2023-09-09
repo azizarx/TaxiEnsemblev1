@@ -105,24 +105,43 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public int numberOfZones;
+
     private void ClientSpawner()
     {
-        //wait for the time and get a random bool true or false (right or left)
-        if (time > 0f)
-        {
-            time -= Time.deltaTime;
-        }
-        //if (positionAnchor + Distance < taxi.transform.position.z && time < 0)
-        else
-        {
-            float Distance = Random.Range(minDistance, maxDistance);// random distance to spawn a client
-            float positionAnchor = taxi.transform.position.z;//the taxi z position is saved for later calculation in distance
 
-            GameObject tempZone = Instantiate(stopZone, new Vector3(8 * side, 0.5f, taxi.transform.position.z + Distance), Quaternion.identity);
-            tempZone.transform.parent = stopZones.transform;
+        if(NumberOfPassangers<8)
+        {
+            if(stopZones.gameObject.transform.childCount<8-NumberOfPassangers)
+            {
+                //wait for the time and get a random bool true or false (right or left)
+                if (time > 0f)
+                {
+                    time -= Time.deltaTime;
+                }
+                //if (positionAnchor + Distance < taxi.transform.position.z && time < 0)
+                else//spawn a zone in a random distance from taxi
+                {
+                    float Distance = Random.Range(minDistance, maxDistance);// random distance to spawn a client
+                                                                            //float positionAnchor = taxi.transform.position.z;//the taxi z position is saved for later calculation in distance
 
-            time = Random.Range(0f, 10f);//random time to spawn a client
-            side = Random.Range(0, 2) == 0 ? -1 : 1;//rest radom side to spawn at
+                    GameObject tempZone = Instantiate(stopZone, new Vector3(8 * side, 0.5f, taxi.transform.position.z + Distance), Quaternion.identity);
+                    tempZone.transform.parent = stopZones.transform;
+
+                    numberOfZones++;
+
+                    time = Random.Range(0f, 10f);//random time to spawn a client
+                    side = Random.Range(0, 2) == 0 ? -1 : 1;//rest radom side to spawn at
+                }
+            }
         }
+
+
+
+       
     }
 }
+//if (number of passenger<8) 
+    //if ( number of stop zones < number of empty spots), empty spots = max spots(8) - current numberof passangers
+    //&& distance between zone is random and big enough
+        //spawn a stop zone in a random distance from the taxi
