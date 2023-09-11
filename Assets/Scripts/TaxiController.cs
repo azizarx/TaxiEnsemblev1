@@ -13,6 +13,7 @@ public class TaxiController : MonoBehaviour
     public float Speed = 10f; // The MaxSpeed of the car
     public float Acceleration = 1f;
     public float Deceleration = 1f;
+    public LifeCounter lifeCounter;
     Vector3 forwardDirection;
     private void Start()
     {
@@ -92,9 +93,10 @@ public class TaxiController : MonoBehaviour
     {
         if(other.CompareTag("NormalCar"))
         {
+            lifeCounter.LoseLife();
             Debug.Log("speed = 1");
             Speed = 0;
-
+            
         }
     }
 
