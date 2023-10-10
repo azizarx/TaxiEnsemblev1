@@ -15,7 +15,7 @@ public class SpawnedCarScript : MonoBehaviour
         slowingRatio = Random.Range(0.2f, 0.7f);
         playerTaxi = FindObjectOfType<TaxiController>().gameObject;
         //carSpeed = playerTaxi.GetComponent<TaxiController>().Speed * slowingRatio;        
-        carSpeed = playerTaxi.GetComponent<TaxiController>().Speed * 0.5f;
+        carSpeed = playerTaxi.GetComponent<TaxiController>().MaxSpeed * 0.4f;
     }
 
     // Update is called once per frame
