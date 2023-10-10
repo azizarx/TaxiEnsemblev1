@@ -12,9 +12,10 @@ public class SpawnedCarScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        slowingRatio = Random.Range(0.5f, 0.99f);
+        slowingRatio = Random.Range(0.2f, 0.7f);
         playerTaxi = FindObjectOfType<TaxiController>().gameObject;
-        carSpeed = playerTaxi.GetComponent<TaxiController>().Speed * slowingRatio;        
+        //carSpeed = playerTaxi.GetComponent<TaxiController>().Speed * slowingRatio;        
+        carSpeed = playerTaxi.GetComponent<TaxiController>().Speed * 0.5f;
     }
 
     // Update is called once per frame

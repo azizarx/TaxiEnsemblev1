@@ -42,7 +42,7 @@ public class Spawner : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(SpawnCars());
+StartCoroutine(SpawnCars());
     }
 
     private System.Collections.IEnumerator SpawnCars()
