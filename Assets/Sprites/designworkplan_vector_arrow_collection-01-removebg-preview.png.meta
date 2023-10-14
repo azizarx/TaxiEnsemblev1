@@ -1,0 +1,1630 @@
+fileFormatVersion: 2
+guid: 3f5e77118a8fca245b51c94337e601b5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 478
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd772f898992644c9426205b038348c
+      internalID: -9554816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 477
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4caf89ee9d45514b9d27b4239d32b84
+      internalID: 854458973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 475
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1efbc95efd453f47941281fddb07eae
+      internalID: -763211388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 474
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604849652e89c1248bdd5873dae6ed08
+      internalID: 1020209817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 474
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1c70004b2c5624c84d1525d78cc706
+      internalID: -394705987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 477
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f35f7293498d6d45a24c5d50d3680cd
+      internalID: 877286806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 479
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f15d79773a96a408236801b6f5d056
+      internalID: 803228878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 414
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100aa53626f7e274db5c27322b471dd6
+      internalID: 944304948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 414
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c988ac1143271f74bbd5a024df4869d6
+      internalID: -1205828838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 414
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46877a4445c0194419d97506588c1c3f
+      internalID: 528522136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 416
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518054b86e1b686488862a5c8905f9b8
+      internalID: 1793598783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 414
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a383c5c0db9adb941821eb18eaef9320
+      internalID: 1716805044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 416
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ee88d49ef4bad4fb0891bb5ddf4f6f
+      internalID: -688014272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 413
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c46cd96f488d374bb4815e79d80632f
+      internalID: -627395724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 351
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1919834a30c80fb459aeff7c523f8021
+      internalID: -217413358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 350
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6d92f700e9e5847a783ce8a1c44232
+      internalID: -844814510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 393
+        width: 51
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bd5aa960371fd4096eb7e7f7ab8c5a
+      internalID: -2003909916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 394
+        width: 84
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc029e2f7dd2a048aa2bd07a284542b
+      internalID: -1906076252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 351
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743fe1ff2c0dade42819d85562609479
+      internalID: 790707453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 351
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b21e3e8b45b6e84aa925e3e9d28e9fb
+      internalID: -1260363039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 353
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735e7e3b768f86049a5cf38d0aa9c7c3
+      internalID: 1438023857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 351
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5bb7890d54bbd46812e808ec647ee4
+      internalID: -2007207153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 359
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ea88cf8b96808429c2f218c874f9ae
+      internalID: 1914184841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 279
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3f64accc17e9849ae2dc1ac3c210ff
+      internalID: -349506538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 283
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0050ca6a3a110343b718c1bb365923d
+      internalID: 993106562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 279
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428020d0274ab2a499e719638494c196
+      internalID: 1838361667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 287
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da06fa218abd784d83ebcb58e1d13e5
+      internalID: 241497568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 293
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a67981f6844374c937565c09649944
+      internalID: -1742686188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 290
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c20cb75b9dbc0243b608e6b93aee703
+      internalID: 1155145776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 291
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca45ee213a8e02f4a92995d0226d3e30
+      internalID: 2108008023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 231
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e1dc6b841f27c4bb6f34bd6cec49f4
+      internalID: 58161125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 230
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5135c6be9eeb3d34594c27909a893aa2
+      internalID: -612716288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 229
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c9ef61abd0456459e5636cd993a924
+      internalID: -1751080523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 225
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661171f7b75b2e0498ce1fb590f47d7d
+      internalID: -2105551247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 224
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0e8fbf74d67e548919b268c909f1b9
+      internalID: -1795231089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 231
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06be7d110d43004698faa8eac340a38
+      internalID: -1252431177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 228
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbf3f7751a6cd64a902de08f43f2e3a
+      internalID: -1264921433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 180
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee56a8364847ac469021613a61d3f1e
+      internalID: -1197930373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 159
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cb7b5872ec1af42b1c82e42a53d4dc
+      internalID: -14728293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 158
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c9ad1a0967f1346b57ae674a57b58f
+      internalID: 1627042336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 155
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f688757d8e0c16749a3ddda580c73551
+      internalID: 1623759654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 179
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2af2bfb964c1a4dab735d4cd3ba580
+      internalID: 1197850309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 155
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0c9171852d8f8448c66b6b8c52b6e7
+      internalID: -2093986710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 160
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4c0d73987a55840be85fef0592d0ae
+      internalID: -408958150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 159
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c36a9a157a655b43bbcfc06536e0d65
+      internalID: -503103597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 156
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b55c5ff89090043865a10a6bcd92cc
+      internalID: 399597545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 154
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd42498a406e3a4c8781575689a1278
+      internalID: 307012317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 159
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ae15ffc4be59540af644e5272f275a
+      internalID: -571183991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 103
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1dda803ad6fea47ac8a67e70964d36
+      internalID: 1000149961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 93
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ef1248bae72f243b694e5df8f2972b
+      internalID: 826672634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 93
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ff6e307e6dcf047a0673a9706f599f
+      internalID: 1164811797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 93
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e094badff2e8f2944b22dcb64f0635b1
+      internalID: 335985737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 94
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1773c3dacbff2114e8bb48baa086a588
+      internalID: 1773616429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 96
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533da97a623e5d34a8b8134a6c03c390
+      internalID: -1339106837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 77
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c14cbd039739e46a1dd5ef951735ed
+      internalID: -1020765563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 34
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2803011191623c45af8a4d872394e52
+      internalID: 1034606238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 27
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2725a00b76f0db04abe2246ff4ee3660
+      internalID: 1470570904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 48
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d62b1071eec844988e47636b5003cc
+      internalID: 1140678006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 38
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df731a453d129940833bb004c498348
+      internalID: -2006386083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 26
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df8a57167014574dbf0dcba4dbe499c
+      internalID: -1579028901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 27
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bf79caaed979f47a46136a566bbfd7
+      internalID: 1766624327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 53
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b771dce6e83ab4b978ece8acee10ed
+      internalID: 1874927180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 28
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4634ccc7d4d47014e83493a46448c349
+      internalID: 740411849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 44
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619e4232e8e559a43bc28a624cb2020b
+      internalID: -985009213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 44
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edda7efdb3b2d59478e25e063249dd7a
+      internalID: -1529377051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 44
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cce1e73f89fd95408be43c04953f46d
+      internalID: 35322121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 44
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c80ac7774588614194f1e560b9fdac2
+      internalID: -1902641478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: designworkplan_vector_arrow_collection-01-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 32
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512ca5ab47f2ded45816854a0a0db872
+      internalID: -2108252172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 412dc3b1f548e5d48958229aae81657e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      designworkplan_vector_arrow_collection-01-removebg-preview_42: -2093986710
+      designworkplan_vector_arrow_collection-01-removebg-preview_5: 877286806
+      designworkplan_vector_arrow_collection-01-removebg-preview_56: 1470570904
+      designworkplan_vector_arrow_collection-01-removebg-preview_64: -1529377051
+      designworkplan_vector_arrow_collection-01-removebg-preview_66: -1902641478
+      designworkplan_vector_arrow_collection-01-removebg-preview_62: 740411849
+      designworkplan_vector_arrow_collection-01-removebg-preview_17: -1906076252
+      designworkplan_vector_arrow_collection-01-removebg-preview_34: -1795231089
+      designworkplan_vector_arrow_collection-01-removebg-preview_32: -1751080523
+      designworkplan_vector_arrow_collection-01-removebg-preview_37: -1197930373
+      designworkplan_vector_arrow_collection-01-removebg-preview_61: 1874927180
+      designworkplan_vector_arrow_collection-01-removebg-preview_51: 335985737
+      designworkplan_vector_arrow_collection-01-removebg-preview_16: -2003909916
+      designworkplan_vector_arrow_collection-01-removebg-preview_19: -1260363039
+      designworkplan_vector_arrow_collection-01-removebg-preview_30: 58161125
+      designworkplan_vector_arrow_collection-01-removebg-preview_23: -349506538
+      designworkplan_vector_arrow_collection-01-removebg-preview_50: 1164811797
+      designworkplan_vector_arrow_collection-01-removebg-preview_21: -2007207153
+      designworkplan_vector_arrow_collection-01-removebg-preview_57: 1140678006
+      designworkplan_vector_arrow_collection-01-removebg-preview_65: 35322121
+      designworkplan_vector_arrow_collection-01-removebg-preview_11: 1716805044
+      designworkplan_vector_arrow_collection-01-removebg-preview_41: 1197850309
+      designworkplan_vector_arrow_collection-01-removebg-preview_25: 1838361667
+      designworkplan_vector_arrow_collection-01-removebg-preview_55: 1034606238
+      designworkplan_vector_arrow_collection-01-removebg-preview_53: -1339106837
+      designworkplan_vector_arrow_collection-01-removebg-preview_14: -217413358
+      designworkplan_vector_arrow_collection-01-removebg-preview_12: -688014272
+      designworkplan_vector_arrow_collection-01-removebg-preview_36: -1264921433
+      designworkplan_vector_arrow_collection-01-removebg-preview_15: -844814510
+      designworkplan_vector_arrow_collection-01-removebg-preview_20: 1438023857
+      designworkplan_vector_arrow_collection-01-removebg-preview_35: -1252431177
+      designworkplan_vector_arrow_collection-01-removebg-preview_47: -571183991
+      designworkplan_vector_arrow_collection-01-removebg-preview_63: -985009213
+      designworkplan_vector_arrow_collection-01-removebg-preview_39: 1627042336
+      designworkplan_vector_arrow_collection-01-removebg-preview_60: 1766624327
+      designworkplan_vector_arrow_collection-01-removebg-preview_0: -9554816
+      designworkplan_vector_arrow_collection-01-removebg-preview_31: -612716288
+      designworkplan_vector_arrow_collection-01-removebg-preview_3: 1020209817
+      designworkplan_vector_arrow_collection-01-removebg-preview_58: -2006386083
+      designworkplan_vector_arrow_collection-01-removebg-preview_46: 307012317
+      designworkplan_vector_arrow_collection-01-removebg-preview_33: -2105551247
+      designworkplan_vector_arrow_collection-01-removebg-preview_9: 528522136
+      designworkplan_vector_arrow_collection-01-removebg-preview_28: 1155145776
+      designworkplan_vector_arrow_collection-01-removebg-preview_26: 241497568
+      designworkplan_vector_arrow_collection-01-removebg-preview_4: -394705987
+      designworkplan_vector_arrow_collection-01-removebg-preview_38: -14728293
+      designworkplan_vector_arrow_collection-01-removebg-preview_27: -1742686188
+      designworkplan_vector_arrow_collection-01-removebg-preview_49: 826672634
+      designworkplan_vector_arrow_collection-01-removebg-preview_59: -1579028901
+      designworkplan_vector_arrow_collection-01-removebg-preview_29: 2108008023
+      designworkplan_vector_arrow_collection-01-removebg-preview_44: -503103597
+      designworkplan_vector_arrow_collection-01-removebg-preview_48: 1000149961
+      designworkplan_vector_arrow_collection-01-removebg-preview_54: -1020765563
+      designworkplan_vector_arrow_collection-01-removebg-preview_22: 1914184841
+      designworkplan_vector_arrow_collection-01-removebg-preview_24: 993106562
+      designworkplan_vector_arrow_collection-01-removebg-preview_43: -408958150
+      designworkplan_vector_arrow_collection-01-removebg-preview_18: 790707453
+      designworkplan_vector_arrow_collection-01-removebg-preview_52: 1773616429
+      designworkplan_vector_arrow_collection-01-removebg-preview_45: 399597545
+      designworkplan_vector_arrow_collection-01-removebg-preview_1: 854458973
+      designworkplan_vector_arrow_collection-01-removebg-preview_8: -1205828838
+      designworkplan_vector_arrow_collection-01-removebg-preview_7: 944304948
+      designworkplan_vector_arrow_collection-01-removebg-preview_13: -627395724
+      designworkplan_vector_arrow_collection-01-removebg-preview_10: 1793598783
+      designworkplan_vector_arrow_collection-01-removebg-preview_2: -763211388
+      designworkplan_vector_arrow_collection-01-removebg-preview_6: 803228878
+      designworkplan_vector_arrow_collection-01-removebg-preview_40: 1623759654
+      designworkplan_vector_arrow_collection-01-removebg-preview_67: -2108252172
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
